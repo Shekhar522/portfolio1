@@ -1,0 +1,117 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     font-family: 'Roboto',sans-serif;
+     scroll-behavior: smooth;
+}
+
+.navbar-brand{
+     font-weight: bold;
+     
+}
+
+header{
+     /* background: #59518f;
+     background: linear-gradient(158deg,rgba(89, 81, 143, 1) 0%, rgba(9, 9, 121, 1) 46%, rgba(0, 212, 255, 1) 100%); */
+     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+     border: 2px solid whitesmoke;
+     margin-bottom: -80px;
+}
+
+section{
+     
+     /* background: #59518f;
+     background: linear-gradient(158deg,rgba(89, 81, 143, 1) 0%, rgba(9, 9, 121, 1) 46%, rgba(0, 212, 255, 1) 100%); */
+     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+
+     padding-top: 40px;
+}
+/* #about{
+     border: 2px solid rgb(255, 252, 252);
+}
+#projects{
+     border: 2px solid whitesmoke;
+} */
+.card{
+     /* background: #22C1C3;
+     background: linear-gradient(110deg,rgb(68, 85, 85) 100%, rgb(253, 45, 194) 100%); */
+     transition: transform 0.1s ease-in-out;
+     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+     /* transform: skewX(5deg); */
+     border-radius: 20px;
+
+
+}
+
+.card-img-top{
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
+.card:hover{
+     transform: scale(0.91);
+     box-shadow: #ad222e;
+     border-radius: 40px;
+     .card-img-top{
+          border-top-left-radius: 40px;
+          border-top-right-radius: 40px;
+     }
+     
+     box-shadow: 10px 8px 4px 2px #0ff;
+     
+}
+.card-img-top:hover{
+          border-top-left-radius: 40px;
+          border-top-right-radius: 40px;
+}
+
+.card-text{
+     font-size: 0.6rem;
+}
+/* footer{
+     background: darkblack;
+     background-image: linear-gradient(to right, #636264 0%, #8b8e93 100%);
+} */
+ #about{
+     border: 2px solid whitesmoke;
+ }
+ #projects{
+     border: 2px solid whitesmoke;
+ }
+ #skills{
+     border: 2px solid whitesmoke;
+ }
+ #certificates{
+     border: 2px solid whitesmoke;
+ }
+ #contact{
+     border: 2px solid whitesmoke;
+ }
+
+ .skill-circle{
+     width: 100px;
+     height: 100px;
+     color: white;
+     
+     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin: 10px;
+
+     transition: transform 0.1s ease-in-out;
+     
+ }
+
+ .skill-circle:hover{
+     box-shadow: 8px 6px 4px 1.5px #0ff;
+     transform: scale(1.071);
+ }
+
+ 
